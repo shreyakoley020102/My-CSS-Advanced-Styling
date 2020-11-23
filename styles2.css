@@ -1,0 +1,46 @@
+@media (min-width: 275px) and (max-width: 700px){
+	/* The body should have padding and margin */
+	body {
+		padding: 1%;
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */
+	header {
+		background: #C0C0C0; /* Silver */
+		background-image: url("../images/flywheel.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding: 1%;
+	}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		background-color: rgba(218,234,213,0.60);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 10px;
+		margin: 1%;
+		text-decoration: none;
+		border-radius: 5px;
+	}
+
+	/* The link to the current page should be styled differently from the other links (using class = "active') */
+	.active {
+		background: #FFFFFF; /* White */
+	}
+
+	/* h1 elements should be centered and have a new font color */
+	h1 {
+		color: #FFFFFF; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 25px;
+		position: relative;
+		top: -10px;
+	}
